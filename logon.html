@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="logonPage">
+	<head>
+		<title>myMovies Xpress! - Login</title>
+		<link rel="stylesheet" type="text/css" href="../css/mySite.css">
+		<script src="./script.js"></script>
+	</head>
+	<body>
+		<h1>myMovies Xpress!</h1>
+		<p style="color: red;"><?= $message ?></p>
+<!-- DO NOT REMOVE OR MODIFY THE CODE OR PLACE YOUR CODE ABOVE THIS LINE -->
+ <p>Welcome to the myMovies Xpress website below enter your username and password.<br> If you forgot your
+        account please click the forgot password link if new <strong>Welcome!</strong><br>
+        Please click the link and follow the instructions to create a account.
+    </p>
+       <form action="./logon.php" method="post">
+        <table class="centerLogon">
+        <tr>
+            <td><label for="username">Username</label></td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        </table class="logonPage">
+
+        <p><input type="reset" value="Clear" class="logonButton">  &nbsp <input type="submit" value="Login" class="logonButton"></p>
+
+        <input type="hidden" name="action" value="login" />
+        <p><a href="./logon.php?form=create">Create Account</a> &nbsp <a href="./logon.php?form=forgot">Forgot Password</a> </p>
+    </form>
+	<a href="http://139.62.210.181/~dc462942/">Portfolio Page</a>
+
+<!-- DO NOT REMOVE OR MODIFY THE CODE OR PLACE YOUR CODE BELOW THIS LINE -->
+	</body>
+</html>
