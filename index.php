@@ -1,7 +1,7 @@
 <?php
 
-$EMAIL_ID = 976583868; // 9-digit integer value (i.e., 123456789)
-$API_KEY = "f55dd570"; // API key (string) provided by Open Movie DataBase (i.e., "ab123456")
+$EMAIL_ID = ; // 9-digit integer value (i.e., 123456789)
+$API_KEY = ""; // API key (string) provided by Open Movie DataBase (i.e., "ab123456")
 
 session_start(); // Connect to the existing session
 
