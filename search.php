@@ -1,6 +1,6 @@
 <?php
 
-$API_KEY = "f55dd570"; // API key (string) provided by Open Movie DataBase (i.e., "ab123456")
+$API_KEY = "{string}"; // API key (string) provided by Open Movie DataBase (i.e., "ab123456")
 
 session_start(); // Connect to the existing session
 
